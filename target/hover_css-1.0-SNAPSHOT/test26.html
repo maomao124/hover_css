@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<!--
+Project name(项目名称)：hover_css
+  File name(文件名): test26
+  Authors(作者）: mao
+  Author QQ：1296193245
+  GitHub：https://github.com/maomao124/
+  Date(创建日期)： 2022/4/5
+  Time(创建时间)： 12:46
+  Description(描述)： 无
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="hover.css">
+    <style>
+
+        body {
+            background-color: #b4ffab;
+        }
+
+        div.p1 {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        div.p2 {
+            position: absolute;
+            top: 60%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        button.style {
+            width: 300px;
+            height: 100px;
+            color: #ffa0e3;
+            font-size: 35px;
+            background-color: #a0e5ff;
+            border: 3px solid turquoise;
+        }
+
+        div.style {
+            width: 300px;
+            height: 100px;
+            border: 3px solid turquoise;
+            text-align: center;
+            color: #ffa0e3;
+            font-size: 35px;
+            line-height: 100px;
+            background-color: #a0e5ff;
+        }
+    </style>
+</head>
+<body>
+
+<div class="p1">
+    <button class="style hvr-buzz">按钮</button>
+</div>
+
+<div class="p2">
+    <div class="style hvr-buzz">块级元素</div>
+</div>
+</body>
+</html>
