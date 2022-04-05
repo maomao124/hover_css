@@ -8,20 +8,27 @@
         body {
             background-color: #beb5ff;
         }
+
+        .p {
+            position: absolute;
+            left: 50%;
+            transform: translate(-50%, 0%);
+        }
     </style>
 </head>
 <body>
-br>
-<%int n = 77;%>
-<%
-    for (int i = 0; i < n; i++)
-    {
+<div class="p">
+    <%int n = 77;%>
+    <%
+        for (int i = 0; i < n; i++)
+        {
 
-%>
-<a href="test<%=(i+1)%>.html">test<%=(i + 1)%></a>
-<br>
-<%
-    }
-%>
+    %>
+    <a href="test<%=(i+1)%>.html">test<%=(i + 1)%>
+    </a>
+    <%
+        }
+    %>
+</div>
 </body>
 </html>
